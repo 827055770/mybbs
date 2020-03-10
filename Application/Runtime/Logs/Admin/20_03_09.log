@@ -1,0 +1,73 @@
+[ 2020-03-09T09:57:09+08:00 ] 127.0.0.1 /index.php?m=admin&c=cate&a=save
+ERR: 1364:Field 'uid' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `bbs_cate` (`pid`,`cname`) VALUES ('1','动作')
+
+[ 2020-03-09T09:58:24+08:00 ] 127.0.0.1 /index.php?m=admin&c=cate&a=save
+ERR: 1364:Field 'uid' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `bbs_cate` (`pid`,`cname`) VALUES ('1','动作')
+
+[ 2020-03-09T10:11:45+08:00 ] 127.0.0.1 /index.php?m=admin&c=cate&a=save
+ERR: 1364:Field 'uid' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `bbs_cate` (`pid`,`cname`) VALUES ('1','动作')
+
+[ 2020-03-09T10:32:31+08:00 ] 127.0.0.1 /index.php?m=admin&c=cate&a=index
+ERR: XML标签语法错误
+
+[ 2020-03-09T11:11:47+08:00 ] 127.0.0.1 /index.php?m=admin&c=cate&a=index
+ERR: Think\Controller:assgin方法不存在！
+
+[ 2020-03-09T11:13:46+08:00 ] 127.0.0.1 /index.php?m=admin&c=cate&a=index
+ERR: syntax error, unexpected '$k' (T_VARIABLE)
+
+[ 2020-03-09T11:32:54+08:00 ] 127.0.0.1 /index.php?m=admin&c=cate&a=index
+ERR: 1146:Table 'mybbs.bba_part' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `bba_part`
+
+[ 2020-03-09T11:33:21+08:00 ] 127.0.0.1 /index.php?m=admin&c=cate&a=index
+ERR: 1146:Table 'mybbs.bba_part' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `bba_part`
+
+[ 2020-03-09T11:33:47+08:00 ] 127.0.0.1 /index.php?m=admin&c=cate&a=index
+ERR: 1146:Table 'mybbs.bba_part' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `bba_part`
+
+[ 2020-03-09T11:33:48+08:00 ] 127.0.0.1 /index.php?m=admin&c=cate&a=index
+ERR: 1146:Table 'mybbs.bba_part' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `bba_part`
+
+[ 2020-03-09T11:33:48+08:00 ] 127.0.0.1 /index.php?m=admin&c=cate&a=index
+ERR: 1146:Table 'mybbs.bba_part' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `bba_part`
+
+[ 2020-03-09T11:34:55+08:00 ] 127.0.0.1 /index.php?m=admin&c=cate&a=index
+ERR: 1146:Table 'mybbs.bba_part' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `bba_part`
+
+[ 2020-03-09T14:49:51+08:00 ] 127.0.0.1 /index.php?m=admin&c=cate&a=update$cid=8
+ERR: 非法操作:update$cid=8
+
+[ 2020-03-09T14:50:24+08:00 ] 127.0.0.1 /index.php?m=admin&c=cate&a=update$cid=8
+ERR: 非法操作:update$cid=8
+
+[ 2020-03-09T14:53:12+08:00 ] 127.0.0.1 /index.php?m=admin&c=cate&a=update&cid=8
+ERR: 1054:Unknown column '$cid' in 'where clause'
+ [ SQL语句 ] : UPDATE `bbs_cate` SET `pid`='1' WHERE ( cid=$cid )
+
+[ 2020-03-09T14:53:57+08:00 ] 127.0.0.1 /index.php?m=admin&c=cate&a=update&cid=8
+ERR: 1054:Unknown column 'Array' in 'where clause'
+ [ SQL语句 ] : UPDATE `bbs_cate` SET `pid`='1' WHERE ( cid=Array )
+
+[ 2020-03-09T15:05:51+08:00 ] 127.0.0.1 /index.php?m=admin&c=cate&a=create
+ERR: 1146:Table 'mybbs.bss_cate' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `bss_cate`
+
+[ 2020-03-09T15:06:16+08:00 ] 127.0.0.1 /index.php?m=admin&c=cate&a=create
+ERR: Think\Controller:assgin方法不存在！
+
+[ 2020-03-09T16:02:57+08:00 ] 127.0.0.1 /index.php?m=admin&c=login&a=dologin
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''嘟八戒 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `bbs_user` WHERE ( uname='嘟八戒 ) LIMIT 1  
+
+[ 2020-03-09T17:49:12+08:00 ] 127.0.0.1 /index.php?m=admin&c=user&a=create
+ERR: Class 'Admin\Controller\CommonCrotroller' not found
+

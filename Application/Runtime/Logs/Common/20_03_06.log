@@ -1,0 +1,11 @@
+[ 2020-03-06T10:39:47+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+
+[ 2020-03-06T15:39:40+08:00 ] 127.0.0.1 /indexphp?m=admin&c=user&a=create
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+ERR: 无法加载模块:Indexphp
+
